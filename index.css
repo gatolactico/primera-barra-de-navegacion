@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'jose';
+    src: url("C:\Users\USER\Desktop\clase-1817\NAVBAR NUMERO UNO\letras\PaletteMosaic-Regular.ttf");
+}
+* {
+    font-family: 'jose';
+}
+.contenedor {
+    background-image: url(./fotos/ef62908c1a144ad897bcd22a33372342.png);
+}
+.contenedor a {
+    float: inline-end;
+    color: darkorange;
+    text-align: left;
+    padding: 14px 90px;
+    font-size: 17px;
+}
+.contenedor a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.contenedor a.active {
+    
+    color: white;
+
+}
+.label :hover{
+    background-color: #ddd ;
+    color: black;
+
+}
+.label .active {
+    color: #ddd;
+}
+.a {
+
+    font-style: oblique;
+}
